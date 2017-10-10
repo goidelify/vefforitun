@@ -1,2 +1,3 @@
-# vefforitun
-Fiskur og selur
+## vefforitun
+#Fiskur og selur
+Stay strong
