@@ -19,16 +19,21 @@
   &-12 {
     @include columns(12);
   }
-
-  // todo útfæra rest af grid
+  &-8 {
+    @include columns(8);
+  }
+  &-6 {
+    @include columns(6);
+  }
+  &-4 {
+    @include columns(4);
+  }
 
   &-sm {
     @media (max-width: 599px) {
       &-12 {
         @include columns(12);
       }
-
-      // todo útfæra rest af sm grid
     }
   }
 }
