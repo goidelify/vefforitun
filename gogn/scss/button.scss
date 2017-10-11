@@ -20,7 +20,6 @@
   text-align: center;
 
   cursor: pointer;
-
   transition: 500ms ease;
   &:hover {
     color: #eee;
@@ -43,4 +42,7 @@
     color: #999;
     background-color: #eee;
   }
+}
+.header__button{
+  max-width: 60px;
 }

@@ -8,6 +8,8 @@
   &__title{
     display: inline;
     color: white;
+    font-family: 'Roboto Slab', georgia, serif;
+    font-size: 21px;
   }
   &__button{
     float: right;
@@ -15,7 +17,9 @@
     margin-right: $gutter;
   }
   &__text{
+    color: white;
+    text-decoration: none;
     float:right;
-    padding: 5px $gutter 0 $gutter;
+    padding: 8px $gutter 0 $gutter;
   }
 }

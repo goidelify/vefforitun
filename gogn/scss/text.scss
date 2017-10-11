@@ -1,4 +1,13 @@
-.text {
+.text{
   &__p {
+  }
+  &__check{
+    width: 20px;
+    height: 20px;
+  }
+  &__section{
+  }
+  &__heading{
+    word-wrap: break-word;
   }
 }
