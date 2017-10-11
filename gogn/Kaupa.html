@@ -9,23 +9,27 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
+    <div class="banner__background col-12">
     <header class="header">
-      Fooþjónustan
-      <a href="um.html">
-        Um
-      </a>
-      <button class="button">
+      <p class="header__title col-2">Fooþjónustan</p>
+      <button class="header__button button col-1">
         Kaupa
       </button>
-    </header>
-    <div class="banner">
-      <h1 class="heading--1">
-        Kaupa
-      </h1>
-      <h3 class="heading--3">
+      <a href="um.html" class="header__text col-1">
+        Um
+      </a>
+      <div class="banner">
+        <div class="banner__content col-12">
+          <h1 class="banner__heading--1 heading--1">
+            Kaupa
+          </h1>
+        </div>
+      </div>
+      <div>
+        <h3 class="heading--3">
         Persónuupplýsingar
-      </h3>
-    </div>
+        </h3>
+      </div>
 
     <div class="field field__1">
       <label for="Nafn">Nafn: </label>
@@ -80,17 +84,17 @@
     </select>
   </div>
 
-  <div class="field field__5">
+  <div class="field field__5 col-6 row">
     <label for="Nafn á korti">Nafn á korti: </label>
     <input type="text" name="text" id="text">
   </div>
 
-  <div class="field field__6">
+  <div class="field field__6 col-6 row">
     <label for="Kortanúmer">Kortanúmer</label>
     <input type="text" name="text" id="text" placeholder="5999-9999-9999-9999">
   </div>
 
-  <div class="field field__7">
+  <div class="field field__7 col-6 row">
     <label for="Gildistími">Gildistími:</label>
       <label for="mán">Mán</label>
       <select id="mán" name="mán">
