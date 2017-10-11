@@ -3,33 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Forsida</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleguide.css">
   </head>
   <body>
+    <div class="banner__background">
     <header class="header">
-      Fooþjónustan
-      <a href="um.html">
-        Um
-      </a>
-      <button class="button">
+      <p class="header__title">Fooþjónustan</p>
+      <button class="header__button button">
         Kaupa
       </button>
+      <a href="um.html" class="header__text">
+        Um
+      </a>
     </header>
-    <div class="banner row">
-      <img src="bg.jpg" class="banner__img col-12" />
-      <div class="banner__content">
-        <h2 class="heading--2">
+    <div class="banner">
+      <div class="banner__content col-12">
+        <h2 class="banner__heading--2">
           Í fyrsta skipti á Íslandi
         </h2>
-        <h1 class="heading--1">
+        <h1 class="banner__heading--1">
           Fooþjónustan
         </h1>
 
-        <button class="button">
+        <button class="banner__button button">
           Kaupa
         </button>
       </div>
     </div>
+  </div>
 
     <div class="section">
       <h3 class="heading--3">
@@ -87,13 +89,19 @@
       </div>
     </div>
 
-    <h3 class="heading--3">
-      Eftir hverju ert þú að bíða?
-    </h3>
+    <div class="bottom row">
+      <div class="col-4"></div>
+      <h3 class="heading--3 col-4">
+        Eftir hverju ert þú að bíða?
+      </h3>
+      <div class="col-4"></div>
 
-    <button class="button">
-      Kaupa
-    </button>
+      <div class="col-4"></div>
+      <button class="bottom__button button col-4">
+        Kaupa
+      </button>
+      <div class="col-4"></div>
+    </div>
 
     <footer>
       Fooþjónustan

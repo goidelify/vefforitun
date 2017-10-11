@@ -21,6 +21,7 @@
 
   cursor: pointer;
 
+  transition: 500ms ease;
   &:hover {
     color: #eee;
     background-color: #333;
