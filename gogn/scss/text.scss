@@ -1,13 +1,25 @@
 .text{
+  display: flex;
+  flex-flow: row;
   &__p {
+    word-wrap: break-word;
   }
   &__check{
     width: 20px;
     height: 20px;
   }
   &__section{
+    display: inline-block;
   }
   &__heading{
     word-wrap: break-word;
+  }
+  &__um{
+    &__p{
+
+    }
+    &__blockquote{
+      
+    }
   }
 }
