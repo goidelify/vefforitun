@@ -2,79 +2,92 @@
 <html lang="is">
   <head>
     <meta charset="utf-8">
-    <title>Kaupa</title>
-    <link rel="" href="">
-    <link rel="" href="">
+    <title>Forsida</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleguide.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
     <div class="banner__background col-12">
-    <header class="header">
-      <p class="header__title col-2">Fooþjónustan</p>
-      <button class="header__button button col-1">
-        Kaupa
-      </button>
-      <a href="um.html" class="header__text col-1">
-        Um
-      </a>
+      <header class="header">
+        <p class="header__title col-2">Fooþjónustan</p>
+        <button class="header__button button col-1">
+          Kaupa
+        </button>
+        <a href="um.html" class="header__text col-1">
+          Um
+        </a>
+      </header>
       <div class="banner">
-        <div class="banner__content col-12">
-          <h1 class="banner__heading--1 heading--1">
+          <h1 class="banner__noanim__heading--1 heading--1">
             Kaupa
           </h1>
         </div>
+    </div>
+
+  <div class="row">
+  <div class="col-6">
+    <div>
+      <h3 class="heading--3">
+      Persónuupplýsingar
+      </h3>
+    </div>
+    <div class="field field__ONE col-6">
+      <div class="field field__1">
+        <label for="Nafn">Nafn: </label>
+        <input type="text" name="text" id="text">
       </div>
-      <div>
-        <h3 class="heading--3">
-        Persónuupplýsingar
-        </h3>
+
+      <div class="field field__2">
+        <label for="Kennitala">Kennitala: </label>
+        <input type="text" name="text" id="text">
       </div>
-  <div class="field field__ONE col-6">
-    <div class="field field__1">
-      <label for="Nafn">Nafn: </label>
-      <input type="text" name="text" id="text">
-    </div>
-    <div class="field field__2">
-      <label for="Kennitala">Kennitala: </label>
-      <input type="text" name="text" id="text">
-    </div>
-    <div class="radio">
-      <label >
-        <input name="Kyn" type="radio" value="Kona">
-        Kona
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input name="Kyn" type="radio" value="Karl">
-        Karl
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input name="Kyn" type="radio" value="Annað">
-        Annað
-      </label>
-    </div>
-    <div class="field field__3">
-      <label for="Símanúmer">Sími: </label>
-      <input type="text" name="text" id="text" placeholder="+354 123 4567">
-    </div>
-    <div class="field field__4">
-      <label for="Heimilisfang">Heimilisfang: </label>
-      <input type="text" name="text" id="text">
-    </div>
-    <div class="checkbox">
-      <label>
-        <input name="póstlisti" type="checkbox" value="Skrá mig á póstlista">Skrá mig á póstlista</input>
-      </label>
+
+      <div class="radio">
+        <label >
+          <input name="Kyn" type="radio" value="Kona">
+          Kona
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input name="Kyn" type="radio" value="Karl">
+          Karl
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input name="Kyn" type="radio" value="Annað">
+          Annað
+        </label>
+      </div>
+
+      <div class="field field__3">
+        <label for="Símanúmer">Sími: </label>
+        <input type="tel" name="tel" id="tel" placeholder="+354 123 4567">
+      </div>
+
+      <div class="field field__4">
+        <label for="Heimilisfang">Heimilisfang: </label>
+        <input type="text" name="text" id="text">
+      </div>
+
+      <div class="checkbox">
+        <label>
+          <input name="póstlisti" type="checkbox" value="Skrá mig á póstlista">Skrá mig á póstlista</input>
+        </label>
+      </div>
     </div>
   </div>
+  <div class="col-6">
   <div class="field field__TWO col-6">
     <h3 class="heading--3">
       Greiðsluupplýsingar
     </h3>
+  </div>
 
   <div class="choice">
     <select>
@@ -95,41 +108,12 @@
   </div>
 
   <div class="field field__7">
-    <label for="Gildistími">Gildistími:</label>
-      <label for="mán">Mán</label>
-      <select id="mán" name="mán">
-        <option>12</option>
-        <option>11</option>
-        <option>10</option>
-        <option>09</option>
-        <option>08</option>
-        <option>07</option>
-        <option>06</option>
-        <option>05</option>
-        <option>04</option>
-        <option>03</option>
-        <option>02</option>
-        <option>01</option>
-      </select> -
-      <label for="year">Ár</label>
-      <select id="ár" name="ár" />
-        <option>2022</option>
-        <option>2021</option>
-        <option>2020</option>
-        <option>2019</option>
-        <option>2018</option>
-        <option>2017</option>
-   </div>
+    <div>
+        Mán <input type="number"min="01" placeholder="01">
+        Ár <input type="number"min="2017"placeholder="2017">
+      </div>
  </div>
-
-  <div class="button">
-    <button>
-      Panta
-    </button>
-  </div>
-
-
-
+ </div>
 
     <footer>
       Fooþjónustan
