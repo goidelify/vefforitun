@@ -15,11 +15,19 @@
     word-wrap: break-word;
   }
   &__um{
+    margin-top: 30px;
     &__p{
-
+      margin-bottom: $gutter;
     }
     &__blockquote{
-      
+      float:right;
+      padding: 30px;
+      font-style: italic;
+      font-size: 18px;
+      &__p{
+        font-style: normal;
+        font-size: 14px;
+      }
     }
   }
 }

@@ -42,6 +42,9 @@
   &-0 {
     @include columns(0);
   }
+  &-sm6 {
+    @include columns(6);
+  }
   @media (max-width: 599px) {
     &-12 {
       @include columns(12);
