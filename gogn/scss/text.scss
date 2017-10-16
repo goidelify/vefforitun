@@ -1,13 +1,33 @@
 .text{
+  display: flex;
+  flex-flow: row;
   &__p {
+    word-wrap: break-word;
   }
   &__check{
     width: 20px;
     height: 20px;
   }
   &__section{
+    display: inline-block;
   }
   &__heading{
     word-wrap: break-word;
+  }
+  &__um{
+    margin-top: 30px;
+    &__p{
+      margin-bottom: $gutter;
+    }
+    &__blockquote{
+      float:right;
+      padding: 30px;
+      font-style: italic;
+      font-size: 18px;
+      &__p{
+        font-style: normal;
+        font-size: 14px;
+      }
+    }
   }
 }

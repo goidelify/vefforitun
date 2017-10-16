@@ -6,8 +6,13 @@
   border: none;
   position: relative;
   text-align: center;
+  align-items: center;
+  &__noanim__heading--1{
+    margin:30px;
+    color: white;
+  }
   &__background{
-    background: url("bg.jpg") fixed 50% 50%;
+    background: url("bg-subpage.jpg") fixed 50% 50%;
     background-size: cover;
   }
   &__content{
