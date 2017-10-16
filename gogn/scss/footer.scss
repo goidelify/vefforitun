@@ -8,9 +8,8 @@
   &__copyright{
     background: rgb(40, 40, 40);
     width: 100%;
-    color: white;
-    font-family: 'Roboto Slab', georgia, serif;
-    font-size: 21px;
+    color: rgb(100, 100, 100);
+    font-size: 12px;
     text-align: center;
     line-height: 40px;
   }
@@ -22,5 +21,6 @@
     padding: 0;
     border-bottom: solid rgb(100, 100, 100) 1px;
     text-align: center;
+    padding-bottom: 40px;
   }
 }

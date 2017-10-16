@@ -253,9 +253,8 @@ main {
   .footer__copyright {
     background: #282828;
     width: 100%;
-    color: white;
-    font-family: 'Roboto Slab', georgia, serif;
-    font-size: 21px;
+    color: #646464;
+    font-size: 12px;
     text-align: center;
     line-height: 40px; }
   .footer__text {
@@ -265,4 +264,5 @@ main {
     margin: 0px;
     padding: 0;
     border-bottom: solid #646464 1px;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 40px; }
