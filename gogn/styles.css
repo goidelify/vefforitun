@@ -258,7 +258,8 @@ main {
     background: #282828;
     color: white;
     font-family: 'Roboto Slab', georgia, serif;
-    font-size: 21px; }
+    font-size: 21px;
+    align-text: center; }
   .footer__text {
     color: white;
     text-decoration: none;
