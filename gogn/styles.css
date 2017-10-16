@@ -258,12 +258,12 @@ main {
     background: #282828;
     color: white;
     font-family: 'Roboto Slab', georgia, serif;
-    font-size: 21px;
-    align-text: center; }
+    font-size: 21px; }
   .footer__text {
     color: white;
     text-decoration: none;
     padding: 8px 20px 0 20px;
     margin: 0px;
     padding: 0;
-    border-bottom: solid #646464 1px; }
+    border-bottom: solid #646464 1px;
+    align-text: center; }
