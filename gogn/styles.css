@@ -263,3 +263,10 @@ main {
     margin: 0px;
     padding: 0;
     border-bottom: solid #646464 1px; }
+
+.form {
+  align-content: center; }
+  .form__field {
+    margin-top: 5px; }
+    .form__field__pun__nup {
+      border-radius: 4px; }

@@ -25,105 +25,119 @@
           </h1>
         </div>
     </div>
+  <form>
+    <div class="row col">
+      <div class="col-6">
+        <div>
+          <h3 class="heading--3">
+          Persónuupplýsingar
+          </h3>
+        </div>
+        <div class="form">
+          <div class="form__field col-6">
+            <div class="form__field__pun">
+              <label for="Nafn">Nafn: </label>
+              <div>
+                <input class="form__field__pun__nup" type="text" name="text" id="text">
+              </div>
+            </div>
 
-  <div class="row">
-  <div class="col-6">
-    <div>
-      <h3 class="heading--3">
-      Persónuupplýsingar
-      </h3>
-    </div>
-    <div class="field field__ONE col-6">
-      <div class="field field__1">
-        <label for="Nafn">Nafn: </label>
-        <input type="text" name="text" id="text">
+            <div class="form__field__pun">
+              <label for="Kennitala">Kennitala: </label>
+              <div>
+                <input class="form__field__pun__nup" type="text" name="text" id="text">
+              </div>
+            </div>
+
+            <label class="form__stuff">Kyn:</label>
+            <div class="form__radio">
+              <label >
+                <input name="Kyn" type="radio" value="Kona">
+                Kona
+              </label>
+            </div>
+
+            <div class="form__radio">
+              <label>
+                <input name="Kyn" type="radio" value="Karl">
+                Karl
+              </label>
+            </div>
+
+            <div class="form__radio">
+              <label>
+                <input name="Kyn" type="radio" value="Annað">
+                Annað
+              </label>
+            </div>
+
+            <div class="form__field__pun">
+              <label for="Símanúmer">Sími: </label>
+              <input class="form__field__pun__nup" type="tel" name="tel" id="tel" placeholder="+354 123 4567">
+            </div>
+
+            <div class="form__field__pun">
+              <label for="Heimilisfang">Heimilisfang: </label>
+              <input class="form__field__pun__nup" type="text" name="text" id="text">
+            </div>
+
+            <div class="form__checkbox">
+              <label>
+                <input name="póstlisti" type="checkbox" value="Skrá mig á póstlista">Skrá mig á póstlista</input>
+              </label>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="field field__2">
-        <label for="Kennitala">Kennitala: </label>
-        <input type="text" name="text" id="text">
-      </div>
+        <div class="col-6">
+          <div class="form__field col-6">
+              Greiðsluupplýsingar
+            </h3>
+          </div>
 
-      <div class="radio">
-        <label >
-          <input name="Kyn" type="radio" value="Kona">
-          Kona
-        </label>
-      </div>
+          <div class="form__choice">
+            <select>
+              <option value="" disabled selected>Greiða með</option>
+              <option value="choice">Kredit kort</option>
+              <option value="choice">Millifærsla</option>
+            </select>
+          </div>
 
-      <div class="radio">
-        <label>
-          <input name="Kyn" type="radio" value="Karl">
-          Karl
-        </label>
-      </div>
+          <div class="form__field__pun">
+            <label for="Nafn á korti">Nafn á korti: </label>
+            <input class="form__field__pun__nup" type="text" name="text" id="text">
+          </div>
 
-      <div class="radio">
-        <label>
-          <input name="Kyn" type="radio" value="Annað">
-          Annað
-        </label>
-      </div>
+          <div class="form__field__pun">
+            <label for="Kortanúmer">Kortanúmer</label>
+            <input class="form__field__pun__nup" type="text" name="text" id="text" placeholder="5999-9999-9999-9999">
+          </div>
 
-      <div class="field field__3">
-        <label for="Símanúmer">Sími: </label>
-        <input type="tel" name="tel" id="tel" placeholder="+354 123 4567">
-      </div>
-
-      <div class="field field__4">
-        <label for="Heimilisfang">Heimilisfang: </label>
-        <input type="text" name="text" id="text">
-      </div>
-
-      <div class="checkbox">
-        <label>
-          <input name="póstlisti" type="checkbox" value="Skrá mig á póstlista">Skrá mig á póstlista</input>
-        </label>
-      </div>
-    </div>
-  </div>
-  <div class="col-6">
-  <div class="field field__TWO col-6">
-    <h3 class="heading--3">
-      Greiðsluupplýsingar
-    </h3>
-  </div>
-
-  <div class="choice">
-    <select>
-      <option value="" disabled selected>Greiða með</option>
-      <option value="choice">Kredit kort</option>
-      <option value="choice">Millifærsla</option>
-    </select>
-  </div>
-
-  <div class="field field__5">
-    <label for="Nafn á korti">Nafn á korti: </label>
-    <input type="text" name="text" id="text">
-  </div>
-
-  <div class="field field__6">
-    <label for="Kortanúmer">Kortanúmer</label>
-    <input type="text" name="text" id="text" placeholder="5999-9999-9999-9999">
-  </div>
-
-  <div class="field field__7">
-    <div>
-        Mán <input type="number"min="01" placeholder="01">
-        Ár <input type="number"min="2017"placeholder="2017">
-      </div>
+          <div class="form__field__pun">
+            <div>
+              Mán <input class="form__field__pun__nup" type="number"min="01" placeholder="01">
+              Ár <input class="form__field__pun__nup" type="number"min="2017"placeholder="2017">
+            </div>
+         </div>
+     </div>
+   </div>
+ </form>
+ <div class="footer__bg">
+   <footer class="footer col">
+     <div class="footer__text row">
+       <div class="col-sm6">
+         <p>Fooþjónustan</p>
+         <p>123-4567</p>
+       </div>
+       <div class="col-sm6">
+         <p>Opið 12-13 alla daga</p>
+         <p>Bargata 1</p>
+         <p>900 Foobar</p>
+       </div>
+     </div>
+       <p class="footer__copyright row">© Fooþjónustan 2017</p>
+   </footer>
  </div>
- </div>
-
-    <footer>
-      Fooþjónustan
-      123-4567
-
-      Opið 12-13 alla daga
-      Bargata 1
-      900 Foobar
-
-      © Fooþjónustan 2017
-    </footer>
-  </body>
-</html>
+ </body>
+ </html>
