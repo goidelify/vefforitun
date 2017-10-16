@@ -12,8 +12,12 @@
     color: white;
   }
   &__background{
+    background: url("bg.jpg") fixed 50% 50%;
+    background-size: cover;
+    &__sub{
     background: url("bg-subpage.jpg") fixed 50% 50%;
     background-size: cover;
+  }
   }
   &__content{
     margin: auto;
