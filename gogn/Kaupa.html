@@ -27,14 +27,13 @@
     </div>
   <form>
     <div class="row col">
-      <div class="col-6">
-        <div>
-          <h3 class="heading--3">
-          Persónuupplýsingar
-          </h3>
-        </div>
+      <div class="col-1"></div>
+      <div class="col-4">
         <div class="form">
-          <div class="form__field col-6">
+          <div class="form__field">
+            <h3 class="form__field__ heading--3">
+            Persónuupplýsingar
+            </h3>
             <div class="form__field__pun">
               <label for="Nafn">Nafn: </label>
               <div>
@@ -90,18 +89,28 @@
         </div>
       </div>
 
-        <div class="col-6">
-          <div class="form__field col-6">
+      <div class="col-2">
+        <div class="form__button">
+          <button class="form__button__Kjellin">
+            Panta
+          </button>
+        </div>
+      </div>
+
+        <div class="col-4">
+          <div class="form__field">
             <h3 class="heading--3">
               Greiðsluupplýsingar
             </h3>
           </div>
 
           <div class="form__choice">
-            <select>
-              <option value="" disabled selected>Greiða með</option>
-              <option value="choice">Kredit kort</option>
+            <label>Greiða með:</label>
+            <br>
+            <select class="form__choice">
+              <option value="choice" placeholder>Kreditkort</option>
               <option value="choice">Millifærsla</option>
+              <option value="choice">Reiðufé</option>
             </select>
           </div>
 
@@ -116,29 +125,51 @@
           </div>
 
           <div class="form__field__pun">
-            <div>
-              Mán <input class="form__field__pun__nup" type="number"min="01" placeholder="01">
-              Ár <input class="form__field__pun__nup" type="number"min="2017"placeholder="2017">
+            <div class="form__field__pun__nup">
+                <label class="form__field__pun__nup__1"for="month">Mán</label>
+                <select class="form__field__pun__nup__1" name="month" id="month">
+                  <option value = "1">01</option>
+                	<option value = "2">02</option>
+                	<option value = "3">03</option>
+                	<option value = "4">04</option>
+                	<option value = "5">05</option>
+                  <option value = "6">06</option>
+                	<option value = "7">07</option>
+                	<option value = "8">08</option>
+                	<option value = "9">09</option>
+                	<option value = "10">10</option>
+                	<option value = "11">11</option>
+                	<option value = "12">12</option>
+                </select>
+
+                <label class="form__field__pun__nup__1" for="ár">Ár</label>
+                <select class="form__field__pun__nup__1" name="ár" id="ár">
+              	  <option value = "2017">2017</option>
+                  <option value = "2018">2018</option>
+                	<option value = "2019">2019</option>
+                	<option value = "2020">2020</option>
+                </select>
             </div>
          </div>
-     </div>
+       </div>
+       <div class="col-1"></div>
    </div>
  </form>
- <div class="footer__bg">
-   <footer class="footer col">
-     <div class="footer__text row">
-       <div class="col-sm6">
-         <p>Fooþjónustan</p>
-         <p>123-4567</p>
-       </div>
-       <div class="col-sm6">
-         <p>Opið 12-13 alla daga</p>
-         <p>Bargata 1</p>
-         <p>900 Foobar</p>
-       </div>
+ <footer class="footer col">
+   <div class="footer__text row">
+     <div class="col-sm6">
+       <p>Fooþjónustan</p>
+       <p>123-4567</p>
      </div>
-       <p class="footer__copyright row">© Fooþjónustan 2017</p>
-   </footer>
- </div>
+     <div class="col-sm6">
+       <p>Opið 12-13 alla daga</p>
+       <p>Bargata 1</p>
+       <p>900 Foobar</p>
+     </div>
+   </div>
+   <div class="row">
+     <p class="footer__copyright">© Fooþjónustan 2017</p>
+   </div>
+ </footer>
  </body>
  </html>

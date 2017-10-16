@@ -199,8 +199,11 @@ main {
     margin: 30px;
     color: white; }
   .banner__background {
-    background: url("bg-subpage.jpg") fixed 50% 50%;
-    background-size: cover; }
+    background: url("bg.jpg") fixed 50% 50%;
+    background-size: contain; }
+    .banner__background__sub {
+      background: url("bg-subpage.jpg") fixed 50% 50%;
+      background-size: cover; }
   .banner__content {
     margin: auto; }
   .banner__heading--1 {
@@ -243,31 +246,48 @@ main {
 .footer {
   width: 100%;
   position: static;
-  height: 60px;
   padding: 10px;
   padding-bottom: 20px;
-  text-align: center;
-  align-items: center;
-  border-collapse: collapse; }
-  .footer__bg {
-    background: #282828; }
+  border-collapse: collapse;
+  background: #282828; }
   .footer__copyright {
     background: #282828;
-    color: white;
-    font-family: 'Roboto Slab', georgia, serif;
-    font-size: 21px; }
+    width: 100%;
+    color: #646464;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px; }
   .footer__text {
     color: white;
     text-decoration: none;
     padding: 8px 20px 0 20px;
     margin: 0px;
     padding: 0;
-    border-bottom: solid #646464 1px; }
+    border-bottom: solid #646464 1px;
+    text-align: center;
+    padding-bottom: 40px; }
 
-.form {
+.form__choice {
+  border-radius: 4px;
+  width: 100%; }
+
+.form__button {
   display: flex;
-  align-content: center; }
-  .form__field {
-    margin-top: 5px; }
-    .form__field__pun__nup {
-      border-radius: 4px; }
+  height: 100%;
+  justify-content: center;
+  align-items: flex-end; }
+  .form__button__Kjellin {
+    color: white;
+    width: 100%;
+    height: 10%;
+    border: none;
+    background-color: grey;
+    border-radius: 3px; }
+
+.form__field {
+  margin: 15%; }
+  .form__field__pun__nup {
+    border-radius: 4px;
+    width: 100%; }
+    .form__field__pun__nup__1 {
+      width: 43%; }
