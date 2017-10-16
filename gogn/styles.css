@@ -265,6 +265,7 @@ main {
     border-bottom: solid #646464 1px; }
 
 .form {
+  display: flex;
   align-content: center; }
   .form__field {
     margin-top: 5px; }
