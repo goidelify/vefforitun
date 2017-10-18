@@ -15,6 +15,10 @@
     float: right;
     max-width: 60px;
     margin-right: $gutter;
+    &__link{
+      text-decoration: none;
+      color: white;
+    }
   }
   &__text{
     color: white;

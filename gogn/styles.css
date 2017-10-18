@@ -105,6 +105,9 @@ main {
     float: right;
     max-width: 60px;
     margin-right: 20px; }
+    .header__button__link {
+      text-decoration: none;
+      color: white; }
   .header__text {
     color: white;
     text-decoration: none;
@@ -200,7 +203,7 @@ main {
     color: white; }
   .banner__background {
     background: url("bg.jpg") fixed 50% 50%;
-    background-size: contain; }
+    background-size: cover; }
     .banner__background__sub {
       background: url("bg-subpage.jpg") fixed 50% 50%;
       background-size: cover; }
