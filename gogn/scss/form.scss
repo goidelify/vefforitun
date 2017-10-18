@@ -19,12 +19,15 @@
   }
   &__field{
     margin: 15%;
+    &__half{
+      display: inline-block;
+    }
     &__pun{
       &__nup{
         border-radius: 4px;
         width: 100%;
         &__1{
-          width:43%;
+          font-size: 12px;
         }
       }
     }

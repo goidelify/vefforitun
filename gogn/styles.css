@@ -286,8 +286,10 @@ main {
 
 .form__field {
   margin: 15%; }
+  .form__field__half {
+    display: inline-block; }
   .form__field__pun__nup {
     border-radius: 4px;
     width: 100%; }
     .form__field__pun__nup__1 {
-      width: 43%; }
+      font-size: 12px; }
